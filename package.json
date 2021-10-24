@@ -1,0 +1,35 @@
+{
+    "name": "logiscript",
+    "publisher": "lonnonjamesd",
+    "displayName": "Logiscript Extension",
+    "description": "Logiscript",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "logiscript",
+                "aliases": [
+                    "logiscript",
+                    "logiscript"
+                ],
+                "extensions": [
+                    "lsx"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "logiscript",
+                "scopeName": "source",
+                "path": "./syntaxes/logiscript.tmLanguage.json"
+            }
+        ]
+    }
+}
