@@ -8,7 +8,7 @@
 			"name": "constant.numeric"
 		},
 		{
-			"match": "if|while|for|end|when|any|once|update",
+			"match": "if|while|for|end|when|any|once|update|else",
 			"name": "keyword.control.logiscript"
 		},
 		{

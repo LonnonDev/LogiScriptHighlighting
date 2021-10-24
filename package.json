@@ -31,5 +31,6 @@
                 "path": "./syntaxes/logiscript.tmLanguage.json"
             }
         ]
-    }
+    },
+    "repository": "https://github.com/LonnonDev/LogiScriptHighlighting"
 }
