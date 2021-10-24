@@ -1,8 +1,8 @@
 {
-    "name": "logiscript",
+    "name": "logicscript",
     "publisher": "lonnonjamesd",
-    "displayName": "Logiscript Extension",
-    "description": "Logiscript",
+    "displayName": "Logicscript Extension",
+    "description": "Logicscript",
     "version": "0.3.1",
     "engines": {
         "vscode": "^1.61.0"
