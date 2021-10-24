@@ -1,0 +1,1 @@
+# It adds syntax highlighting for lsx files

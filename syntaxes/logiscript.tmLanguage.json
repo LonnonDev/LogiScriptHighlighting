@@ -1,0 +1,27 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Logiscript",
+	"scopeName": "source.logiscript",
+	"patterns": [
+		{
+			"match": "[0-9]|[0-9]+'",
+			"name": "constant.numeric"
+		},
+		{
+			"match": "if|while|for|end|when|any|once|update",
+			"name": "keyword.control.logiscript"
+		},
+		{
+			"match": "==|>=|<=|<|>|&|\\||\\+|-|\\*|\\/|!",
+			"name": "keyword.operator"
+		},
+		{
+			"match": "(#.*)",
+			"name": "comment.line"
+		},
+		{
+			"match": "mem|in|out",
+			"name": "variable"
+		}
+	]
+}

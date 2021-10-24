@@ -19,7 +19,7 @@
                     "logiscript"
                 ],
                 "extensions": [
-                    "lsx"
+                    ".lsx"
                 ],
                 "configuration": "./language-configuration.json"
             }
@@ -27,7 +27,7 @@
         "grammars": [
             {
                 "language": "logiscript",
-                "scopeName": "source",
+                "scopeName": "source.logiscript",
                 "path": "./syntaxes/logiscript.tmLanguage.json"
             }
         ]
